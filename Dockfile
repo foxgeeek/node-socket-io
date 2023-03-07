@@ -6,7 +6,7 @@ ENV NODE_ENV=production
 
 WORKDIR /src
 
-COPY ["package.json", "package-lock.json*", "./"]
+COPY ["package.json", "package-lock.json*", "Dockerfile"]
 
 RUN npm install --production
 
